@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 98px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+.list-item {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.list-item+.list-item {
+    margin-left: 95px;
+}
+
+.menu-list-items {
+    list-style: none;
+}
+
+.menu-list-items .list-item a {
+    text-decoration: none;
+    color: #626262;
+}
+
+.menu-list-items .list-item a:hover {
+    color: #03a9f4;
+}
+
+.sections {
+    width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 420px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.left-col {
+    margin-right: 56px;
+}
+
+.first-row, .second-row {
+    padding-bottom: 130px;
+}
+
