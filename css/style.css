@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -11,9 +15,26 @@ header {
     padding-bottom: 98px;
 }
 
+h2 {
+    font:  400 30px/36px "Playfair Display", sans-serif;
+    color: #626262;
+}
+
+h3 {
+    text-transform: uppercase;
+    font:  300 14px/17px "Ubuntu", sans-serif;
+    color: #b4ad9e;
+    padding-top: 12px;
+}
+
 button {
-    margin: 0 auto;
+    margin: 0 auto 70px;
     display: block;
+    border: solid 1px #626262;
+    padding: 18px 32px;
+    background: none;
+    font:  400 20px/24px "Playfair Display", sans-serif;
+    color: #626262;
 }
 
 .list-item {
@@ -31,7 +52,11 @@ button {
 
 .menu-list-items .list-item a {
     text-decoration: none;
+}
+
+.menu-list-items .list-item a, .text-info {
     color: #626262;
+    font:  400 14px/24px "Playfair Display", sans-serif;
 }
 
 .menu-list-items .list-item a:hover {
@@ -41,13 +66,12 @@ button {
 .sections {
     width: 900px;
     margin: 0 auto;
-    box-sizing: border-box;
+    padding-bottom: 36px;
 }
 
 .section {
     width: 420px;
     display: inline-block;
-    box-sizing: border-box;
 }
 
 .left-col {
@@ -57,4 +81,3 @@ button {
 .first-row, .second-row {
     padding-bottom: 130px;
 }
-
